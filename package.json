@@ -1,0 +1,25 @@
+{
+  "name": "goals-tracking-app",
+  "version": "1.0.0",
+  "description": "A personal goals tracking app provided as a Node.js MVC example - using Express, NeDB and Handlebars.",
+  "main": "server.js",
+  "dependencies": {
+    "async": "^0.2.10",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "material-design-lite": "^1.1.2",
+    "nedb": "^1.8.0",
+    "socket.io": "^0.9.17",
+    "speakingurl": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Aurelien Giraud",
+  "license": "ISC"
+}

@@ -1,0 +1,40 @@
+.date {
+  color: blue;
+  font-size: 0.8em
+}
+
+.goals-list {
+  list-style: none
+}
+
+.success {
+  display: inline-block
+}
+
+.failure {
+  display: inline-block
+}
+
+.content-grid {
+  max-width: 960px
+}
+
+.mdl-card__actions {
+	display: flex;
+	box-sizing:border-box;
+	align-items: center
+}
+
+.mdl-card__actions > .mdl-button--icon {
+	margin-right: 3px;
+	margin-left: 3px
+}
+
+form .mdl-textfield {
+  width: 100%
+}
+
+.mdl-card__title {
+  color: #fff;
+  background: #46B6AC;
+}
