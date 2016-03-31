@@ -1,7 +1,7 @@
 <!-- Form to POST new goals -->
 <div class="content-grid mdl-grid">
   <div class="mdl-cell mdl-cell--12-col">
-    <form action="/goals" method="POST">
+    <form action="/goals" method="POST" class="submit">
       <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
         <input class="mdl-textfield__input" type="text" id="add-goal" name="description">
         <label class="mdl-textfield__label" for="add-goal">New goal</label>
@@ -20,7 +20,7 @@
     <div class="mdl-card__title mdl-color--light-blue-700 mdl-color-text--white">
       <h2>
         <div class="mdl-card__title-text">{{description}}</div>
-        <div class="mdl-card__subtitle-text">{{successes.length}} successes, {{failures.length}} failures</div>
+        <div class="mdl-card__subtitle-text"><span class="successes">{{successes.length}}</span> successes, <span  class="failures">{{failures.length}}</span> failures</div>
       </h2>
     </div>
     <div class="mdl-layout-spacer"></div>
@@ -29,7 +29,7 @@
     <div class="mdl-card__supporting-text">
       Since {{formatCreatedAt}}
     </div>
-    
+
     {{!-- Controls --}}
     <div class="mdl-card__actions mdl-card--border">
       <button class="mdl-button mdl-js-button mdl-button--primary success"><i class="material-icons">trending_up</i></button>

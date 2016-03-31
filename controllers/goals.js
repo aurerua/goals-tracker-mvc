@@ -20,7 +20,7 @@ router.post('/:id/failure', function(req, res) {
   var goal_id = req.params.id
   Goal.addFailure(goal_id, function(err, goal) {
     if (err) {res.send(err)}
-    res.redirect('/')
+    res.sendStatus(200);
   })
 })
 
@@ -30,7 +30,7 @@ router.post('/:id/success', function(req, res) {
   var goal_id = req.params.id
   Goal.addSuccess(goal_id, function(err, goal) {
     if (err) {res.send(err)}
-    res.redirect('/')
+    res.sendStatus(200);
   })
 })
 
@@ -40,7 +40,7 @@ router.delete('/:id', function(req, res) {
   var goal_id = req.params.id
   Goal.delete(goal_id, function(err, goal) {
     if (err) {res.send(err)}
-    res.redirect('/')
+    res.sendStatus(200);
   })
 })
 
