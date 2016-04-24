@@ -1,5 +1,7 @@
 # Goals tracking app
 
+A little implementation of a goal tracker using a MVC folder structure that I wrote for the blog post: [Building a Node.js application on Android](https://medium.freecodecamp.com/building-a-node-js-application-on-android-part-2-express-and-nedb-ced04caea7bb#.mjz98zmz1)
+
 ## Installation
 
 1. Download the repo
